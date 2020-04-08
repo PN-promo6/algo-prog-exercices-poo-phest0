@@ -23,7 +23,7 @@ class Concert_ticket {
   }
 
   concert_detail(): string {
-    let detail;
+    let detail: string;
     if(this.surname){
       detail =  `
       <p>Nom de l'utilisateur : ${ this.name_user } ${ this.surname }</p>
