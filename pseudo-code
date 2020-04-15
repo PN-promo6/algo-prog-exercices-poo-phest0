@@ -1,0 +1,13 @@
+Classe Personnage
+
+  chaine nom // attribut correspondant au nom du personnage
+  entier age // attribut correspondant à l'age du personnage
+
+
+  Constructeur()
+
+
+
+
+
+FinClasse
