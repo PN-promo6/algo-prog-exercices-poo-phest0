@@ -23,10 +23,11 @@ class ConcertTicket {
     }
 
     ConcertTicket(int price, String placeNumber, String date, String customer, String artistName) {
-        this.price = price;
-        this.placeNumber = placeNumber;
-        this.date = date;
-        this.customer = customer;
+        // this.price = price;
+        // this.placeNumber = placeNumber;
+        // this.date = date;
+        // this.customer = customer;
+        this(price, placeNumber, date, customer);
         this.artistName = artistName;
     }
 
