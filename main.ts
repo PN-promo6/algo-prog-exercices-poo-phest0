@@ -41,7 +41,7 @@ class Concert_ticket {
   }
 
 }
-let concert_ticket01 = new Concert_ticket("JP", "01", "Celine Dion", "15 Decembre 2020");
-let concert_ticket02 = new Concert_ticket("Madina", "02", "Celine Dion", "15 Decembre 2020", "Bena");
+let concert_ticket01: Concert_ticket = new Concert_ticket("JP", "01", "Celine Dion", "15 Decembre 2020");
+let concert_ticket02: Concert_ticket  = new Concert_ticket("Madina", "02", "Celine Dion", "15 Decembre 2020", "Bena");
 console.log(concert_ticket01.concert_detail());
 console.log(concert_ticket02.concert_detail());
